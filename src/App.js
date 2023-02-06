@@ -1,6 +1,14 @@
 import './SCSS/index.css'
 
+
+
+
+
 function App() {
+
+  
+
+
   return (
     <div className="App">
       <header>
@@ -27,6 +35,42 @@ function App() {
 
 
       </header>
+
+      <div className='percentage'>
+        <div className='percentage_div'>
+          <div class="progress-pie-chart" data-percent="43">
+            <div class="ppc-progress">
+              <div class="ppc-progress-fill"></div>
+            </div>
+            <div class="ppc-percents">
+              <div class="pcc-percents-wrapper">
+                <span>45%</span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-pie-chart" data-percent="43">
+            <div class="ppc-progress">
+              <div class="ppc-progress-fill"></div>
+            </div>
+            <div class="ppc-percents">
+              <div class="pcc-percents-wrapper">
+                <span>45%</span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-pie-chart" data-percent="43">
+            <div class="ppc-progress">
+              <div class="ppc-progress-fill"></div>
+            </div>
+            <div class="ppc-percents">
+              <div class="pcc-percents-wrapper">
+                <span>45%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
       <div class="container">
         <div class="row">
