@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(190, 216, 246);
+}
+
+@media only screen and (max-width: 750px) {
+  .name {
+    color: red;
+    font: 25px;
+  }
+  .description {
+    color: red;
+  }
+  .left_div {
+    width: 250px;
+  }
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+.App header {
+  width: 1050px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.App header .left_div {
+  width: 350px;
+  text-align: left;
+  padding: 40px;
+}
+.App header .left_div .name {
+  font-size: 45px;
+  font-weight: bold;
+}
+.App header .left_div .last_name {
+  font-size: 45px;
+  font-weight: bold;
+  color: orange;
+}
+.App header .left_div .status {
+  color: red;
+  font-size: 25px;
+  margin: 15px 0px 15px 0px;
+}
+.App header .left_div .description {
+  width: 350px;
+  font-size: 20px;
+}
+.App header .right_div {
+  width: 300px;
+}
+.App header .right_div .img {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}/*# sourceMappingURL=index.css.map */
