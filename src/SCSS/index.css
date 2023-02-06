@@ -19,7 +19,7 @@ body {
   justify-content: center;
 }
 .App header {
-  width: 1050px;
+  width: 100%;
   display: flex;
   margin-top: 40px;
   justify-content: center;
